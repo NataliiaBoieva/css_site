@@ -1,0 +1,899 @@
+*{
+	box-sizing: border-box;
+}
+
+
+html{
+	background-image: url(image/Layer-2.png);
+	background-color: rgba(244, 230, 189, 0.8);
+	font-family: tahoma;
+}
+
+.search{
+	width: 100%;
+}
+
+.header{
+	color: rgb(64, 53, 33);
+	width: 100%;
+	font-size: 0.45em;
+	margin:0 auto;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 2em;
+}
+
+.header h1 span{
+	font-size: 2.2em;
+	text-shadow: 1px 1px 2px #835f41;
+	text-transform: uppercase;
+}
+
+
+.wrapper{
+	width: 95%;
+	height: auto;
+	background-color: rgba(64, 53, 33, 0.7);
+	box-shadow: 1px 1px 7px;
+	padding-bottom: 0.05em;
+	margin: 0 auto;
+}
+
+
+.menu ul{
+	margin:0 auto;
+	text-align: center;
+	padding: 0.5em;
+	padding-top: 0.8em;
+}
+
+.menu ul li{
+	display: inline-block;
+	background-color: rgba(64, 53, 33, 0.7);
+	box-shadow: inset 1px 1px 5px 1px rgba(167, 200, 242, 0.6);
+	width: 100%;
+}	
+
+.menu ul li a{
+	text-decoration: none;
+	display: block;
+	font-size: 0.9375em;
+	color: #f4e6bd;
+	font-weight: bold;
+	padding: 1em;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 3px black;
+}
+
+.menu ul li a:hover{
+	background: rgba(167, 200, 242, 0.5);
+}
+
+
+.photo1{
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0.5em;
+}
+
+.block1 {
+	background-color: rgba(167, 200, 242, 0.4);
+	box-shadow: inset 1px 1px 5px 1px rgba(64, 53, 33, 0.5);
+	width: 95%;
+	margin:0 auto;
+	height: auto;
+	}
+
+#main{
+	color: #142f52;
+	font-size: 0.8em;
+	text-align: justify;
+	padding: 0.8em;
+	font-weight: bold;
+	width: 100%;
+	margin:0 auto;
+	}
+
+#main h1{
+	color: #f4e6bd;
+	text-align: center;
+	text-shadow: 1px 1px 2px black;
+	font-size: 1.25em;
+	}
+
+#poslygu{
+	color: #142f52;
+	font-size: 0.9em;
+	text-align: justify;
+	padding: 1em 2em;
+	font-weight: bold;
+	
+	margin:0 auto;
+	}
+
+.block2{
+	display: none;
+}	
+
+.block3{
+	background-color: rgba(244, 230, 189, 0.5);
+	box-shadow: inset 1px 1px 5px 1px rgba(64, 53, 33, 0.5);
+	color: #142f52;
+	font-weight: bold;
+	width: 95%;
+	margin:0 auto;
+	}
+
+
+.block3 h1{
+	text-align: center;
+	padding-top: 0.75em;
+	text-decoration: underline;
+	font-size: 1.25em;
+	}
+
+.service li {
+	list-style-type: square;
+	padding-bottom: 0.6em;
+	}
+
+.service li a{
+	text-decoration: none;
+	color: #142f52;
+	font-size: 0.9em;
+}
+
+.footer{
+	color: rgb(64, 53, 33);
+	width: 100%;
+	margin:0 auto;
+	text-align: center;
+	font-size: 0.7em;
+}
+
+.social{
+padding: 0.5em;
+}
+
+.social a{
+	color: #142f52;
+	font-size: 2.5em;
+	padding: 0.1em;
+}
+
+
+.clear{
+	clear: both;
+}
+
+.pronasfoto{
+	width: 30%;
+	height: auto;
+	float: left;
+	padding: 10px;
+}
+
+
+.content{
+	color: #142f52;
+	font-size: 0.8em;
+	text-align: justify;
+	padding: 0.5em;
+	font-weight: bold;
+	}
+
+.content h1{
+	color: #f4e6bd;
+	text-align: center;
+	text-shadow: 1px 1px 2px black;
+	font-size: 1.25em;
+	}
+}
+
+
+.one {
+	background-color: rgba(167, 200, 242, 0.4);
+    }
+
+.one a{
+	background-color: rgba(167, 200, 242, 0.4);
+	color: #f4e6bd;
+    padding: 11px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 2.5%;
+    box-shadow: inset 2px 2px 5px 2px rgba(64, 53, 33, 0.6);
+    font-weight: bold;
+    }
+.one a:hover{
+	background-color: rgba(64, 53, 33, 0.7);
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 640px){
+
+.search{
+	width: 50%;
+	margin-left: 50%;
+}
+
+.header h1 span{
+	font-size: 3em;
+}
+
+
+.wrapper{
+	padding-top: 0.2em;
+}
+
+.menu ul{
+	background-image: url(image/foto1.png);
+	background-size: 100% 100%;
+	padding: 0;
+	margin: 1em 2% 1em 2%;	
+}	
+
+.menu ul li{
+	background-color: rgba(64, 53, 33, 0.3);
+	box-shadow: inset 1px 1px 7px 3px rgba(167, 200, 242, 0.3);
+	}	
+
+.menu ul li a{
+	font-size: 1.4em;
+	font-weight: bolder;
+	padding: 0.6em;
+	color: rgb(64, 53, 33);
+	text-shadow: 2px 2px 3px rgba(167, 200, 242, 0.3);
+}
+
+.photo1{
+	display: none;
+}
+
+.block3{
+	padding-left: 2%;
+	}
+
+
+.service li {
+	padding-left: 2%;
+	}
+
+.pronasfoto{
+	width: 30%;
+	height: auto;
+	float: left;
+	padding: 10px;
+}
+
+
+.content{
+	padding: 2em;
+	font-size: 1em;
+	}
+
+.content h1{
+	font-size: 1.4em;
+	}
+}
+
+@media only screen and (min-width: 640px) and (max-width: 767px){
+
+.search{
+	width: 50%;
+	margin-left: 50%;
+}
+
+.header h1 span{
+	font-size: 3em;
+}
+
+
+.wrapper{
+	padding-top: 0.2em;
+
+}
+
+.menu ul{
+	background-image: url(image/foto1.png);
+	background-size: 100% 100%;
+	padding: 0;
+	margin: 1em 2% 1em 2%;	
+}	
+
+.menu ul li{
+	background-color: rgba(64, 53, 33, 0.3);
+	box-shadow: inset 1px 1px 7px 3px rgba(167, 200, 242, 0.3);
+	}	
+
+.menu ul li a{
+	font-size: 1.4em;
+	font-weight: bolder;
+	padding: 0.6em;
+	color: rgb(64, 53, 33);
+	text-shadow: 2px 2px 3px rgba(167, 200, 242, 0.3);
+}
+
+.photo1{
+	display: none;
+}
+
+.block3{
+	padding-left: 2%;
+	}
+
+
+.service li {
+	padding-left: 2%;
+	}
+
+.pronasfoto{
+	padding: 1em;
+	padding-top: 2em;
+	max-height: 25em;
+}
+.content{
+	font-size: 1em;
+	padding: 1.5em;
+	}
+
+.content h1{
+	font-size: 1.5em;
+	}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+.search{
+	width: 50%;
+	margin-left: 50%;
+}
+
+.header{
+	width: 50%;
+	margin:0 auto;
+	text-align: center;
+	float: left;
+	padding: 1.5em;
+}
+
+.header h1 span{
+	font-size: 2.7em;
+}
+
+
+.wrapper{
+	clear: both;
+}
+
+
+.menu ul{
+	padding: 0.2em;
+	padding-top: 0.7em;
+}
+
+.menu ul li{
+	width: 16%;
+	box-shadow: 1px 1px 5px 1px rgba(167, 200, 242, 0.6);
+}	
+
+.menu ul li a{
+	font-size: 0.65em;
+	padding: 0;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+
+.photo1{
+	display: none;
+}
+
+.block1 {
+	box-shadow: 1px 1px 5px 1px rgba(64, 53, 33, 0.5);
+	background-color: rgba(167, 200, 242, 0.4);
+	margin: 1em auto;
+	width: 97%;
+	height: 26em;
+	overflow: auto;
+	}
+
+#main{
+	width: 43%;
+	float: left;
+	margin:0 auto;
+	}
+
+.aside{
+	width: 55%;
+	height: 25em;
+	float: right;
+	margin:0.5em 1%;
+	background-image: url(image/foto1.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.block3{
+	background-color: rgba(244, 230, 189, 0.5);
+	box-shadow: 2px 2px 5px 1px rgba(64, 53, 33, 0.8);
+	width: 97%;
+	font-size: 1em;
+	}
+
+
+.block3 h1{
+	text-align: left;
+	padding-top: 0.75em;
+	font-size: 1.1em;
+	}
+
+.service li a{
+	font-size: 1em;
+	padding-left: 1%;
+}
+
+
+.block2{
+	display: block;
+	width: 55%;
+	float: left;
+}
+
+
+.fotovitalnya{
+	display: inline-block;
+	position: relative;
+	margin-top: 0.75em;
+	margin-left: 0.6em;
+}
+
+.fotovitalnya span{
+	display: inline-block;
+	position: absolute;
+	top: 32%;
+	left: 5%;
+
+}
+
+.fotovitalnya span a{
+	font-size: 1.1em;
+	color: #142f52;
+	font-weight: bold;
+}
+
+.fotospalnya{
+	display: inline-block;
+	position: relative;
+	margin-top: 0.75em;
+	margin-left: 0.5em;
+	
+}
+
+.fotospalnya span{
+	display: inline-block;
+	position: absolute;
+	top: 32%;
+	left: 5%;
+}
+
+.fotospalnya span a{
+	font-size: 1.1em;
+	color: #142f52;
+	font-weight: bold;
+}
+
+.fotokorudor{
+	display: inline-block;
+	position: relative;
+	margin-top: 0.4em;
+	margin-left: 0.6em;
+	margin-bottom: 2em;
+}
+
+.fotokorudor span{
+	display: inline-block;
+	position: absolute;
+	top: 32%;
+	left: 5%;
+}
+
+.fotokorudor span a{
+	font-size: 1.1em;
+	color: #142f52;
+	font-weight: bold;
+}
+
+
+.fotodutyacha{
+	display: inline-block;
+	position: relative;
+	margin-top: 0.4em;
+	margin-left: 0.5em;
+	margin-bottom: 2em;
+}
+
+.fotodutyacha span{
+	display: inline-block;
+	position: absolute;
+	top: 32%;
+	left: 5%;
+}
+
+.fotodutyacha span a{
+	font-size: 1.1em;
+	color: #142f52;
+	font-weight: bold;
+
+}
+
+.clear{
+	clear: both;
+}
+
+.pronasfoto{
+	padding: 1em;
+	max-height: 26em;
+}
+.content{
+	font-size: 1em;
+	padding: 1.5em;
+	}
+
+.content h1{
+	font-size: 1.5em;
+	}
+
+}
+
+@media only screen and (min-width : 1024px){
+
+.header{
+	width: 50%;
+	margin:0 auto;
+	text-align: center;
+	float: left;
+	padding: 1.5em;
+}
+
+.header h1 span{
+	font-size: 3.1em;
+}
+
+
+.wrapper{
+	clear: both;
+}
+
+
+.menu ul{
+	padding-top: 1em;
+	width: 98%;
+}
+
+.menu ul li{
+	width: 16%;
+	box-shadow: inset 2px 2px 7px 2px rgba(167, 200, 242, 0.6);
+}	
+
+.menu ul li a{
+	font-size: 0.8em;
+	padding: 1em 0.1 1em 0.1;
+}
+
+.photo1{
+	display: none;
+}
+
+.block1 {
+	box-shadow: 1px 1px 5px 1px rgba(64, 53, 33, 0.5);
+	background-color: rgba(167, 200, 242, 0.4);
+	width: 95%;
+	height: 25em;
+	overflow: auto;
+}
+
+#main{
+	width: 44%;
+	float: left;
+	margin:0 auto;
+	font-size: 0.9em;
+	}
+
+.aside{
+	width: 50%;
+	height: 23em;
+	float: right;
+	margin: 1em 3%;
+	background-image: url(image/foto1.png);
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.block3{
+	background-color: rgba(244, 230, 189, 0.3);
+	box-shadow: inset 2px 2px 7px 1px rgba(64, 53, 33, 0.7);
+	width: 95%;
+	font-size: 1.1em;
+	}
+
+
+.block3 h1{
+	text-align: left;
+	padding-top: 0.75em;
+	font-size: 1.3em;
+	}
+
+.service li a{
+	font-size: 1em;
+	padding-left: 1%;
+}
+
+
+.block2{
+	display: block;
+	width: 55%;
+	float: left;
+}
+
+div.block2 img{
+	width: 200px;
+	height: 120px;
+}
+
+
+.fotovitalnya{
+	display: inline-block;
+	position: relative;
+	margin-top: 1.2em;
+	margin-left: 3%;
+}
+
+.fotovitalnya span{
+	display: inline-block;
+	position: absolute;
+	top: 32%;
+	left: 5%;
+}
+
+.fotovitalnya span a{
+	font-size: 1.1em;
+	color: #142f52;
+	font-weight: bold;
+}
+
+.fotospalnya{
+	display: inline-block;
+	position: relative;
+	margin-top: 1.2em;
+	margin-left: 2%;
+}
+
+.fotospalnya span{
+	display: inline-block;
+	position: absolute;
+	top: 32%;
+	left: 5%;
+}
+
+.fotospalnya span a{
+	font-size: 1.1em;
+	color: #142f52;
+	font-weight: bold;
+}
+
+.fotokorudor{
+	display: inline-block;
+	position: relative;
+	margin-top: 0.4em;
+	margin-bottom: 2em;
+	margin-left: 3%;
+}
+
+.fotokorudor span{
+	display: inline-block;
+	position: absolute;
+	top: 32%;
+	left: 5%;
+}
+
+.fotokorudor span a{
+	font-size: 1.1em;
+	color: #142f52;
+	font-weight: bold;
+}
+
+
+.fotodutyacha{	
+	display: inline-block;
+	position: relative;
+	margin-top: 0.4em;
+	margin-left: 2%;
+}
+
+.fotodutyacha span{
+	display: inline-block;
+	position: absolute;
+	top: 32%;
+	left: 5%;
+}
+
+.fotodutyacha span a{
+	font-size: 1.1em;
+	color: #142f52;
+	font-weight: bold;
+
+}
+
+.clear{
+	clear: both;
+}
+
+.pronasfoto{
+	padding: 1em;
+	max-height: 25em;
+}
+.content{
+	font-size: 1em;
+	padding: 1.5em;
+	}
+
+}
+
+@media only screen and (min-width : 1200px) and (max-width: 1600px) {
+
+.search{
+	width: 50%;
+	margin-left: 50%;
+}
+
+.block1 {
+	box-shadow: inset 1px 1px 5px 1px rgba(64, 53, 33, 0.5);
+	background-color: rgba(167, 200, 242, 0.4);
+	margin: 5px auto;
+	width: 95%;
+	height: 26em;
+}
+
+#main{
+	width: 45%;
+	float: left;
+	font-size: 0.96em;
+	padding-left: 3%;
+	}
+
+.aside{
+	width: 47%;
+	height: 23em;
+	float: right;
+	margin: 1em 3%;
+	background-image: url(image/foto1.png);
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+	
+.fotovitalnya{
+	
+	margin-left: 5%;
+	margin-top: 1em;
+
+}
+
+.fotokorudor{
+
+	margin-left: 5%;
+}
+
+.fotospalnya{
+	
+	margin-top: 1em;
+
+}
+
+.block3 h1{
+	
+	padding-top: 1em;
+	font-size: 1.4em;
+	}
+
+
+.pronasfoto{
+	width: 25%;
+	max-height: 25em;	
+}
+
+
+.content{
+	font-size: 1.2em;
+	padding: 1.5em;
+	}
+
+.content h1{
+		font-size: 1.7em;
+	}
+
+}
+
+
+
+@media only screen and (min-width : 1600px) {	
+
+
+	div.block2 img{
+	width: 270px;
+	height: 140px;
+}
+
+.block1{
+	height: 28em;
+}
+
+#main{
+	font-size: 1.1em;
+}
+
+
+.aside{
+	height: 26em;
+	background-size: cover;
+}
+	
+
+.block3 h1{
+	padding-top: 0;
+	font-size: 1.4em;
+	}
+
+.service li a{
+	font-size: 1.2em;
+	padding-left: 1%;
+}
+
+.block3{
+	padding: 1em;
+}
+
+.wrapper{
+	padding-bottom: 2em;
+
+}
+
+.fotovitalnya{
+	
+	margin-left: 2%;
+	margin-top: 1em;
+
+}
+
+.fotokorudor{
+
+	margin-left: 2%;
+}
+
+.fotospalnya{
+	
+	margin-top: 1em;
+}
+
+
+.pronasfoto{
+	padding: 2em;
+	max-height: 28em;	
+}
+
+
+.content{
+	font-size: 1.3em;
+	padding: 1.5em;
+	}
+
+.content h1{
+		font-size: 1.7em;
+	}
+
+}
